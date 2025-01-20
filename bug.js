@@ -1,0 +1,4 @@
+This error typically occurs when using Expo's `expo prebuild` command in conjunction with custom native modules.  The issue stems from a mismatch between the expected native module structure and what Expo finds during the prebuild process. This can manifest if the native module's build setup isn't correctly configured for Expo's environment or if there are conflicts in package versions or build dependencies. The error message itself is often vague, making it hard to pinpoint the exact problem.  Here's an example of the kind of error you might encounter:
+```
+Error: Could not resolve module `react-native-some-module` from `node_modules/my-app/node_modules/expo-constants/build/Constants.js`
+```
